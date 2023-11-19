@@ -15,12 +15,9 @@
         <img src="image/logo plant.svg" alt="">
         </a>
         <div class="header_div_form">
-            <form class="header_form" action="search" submit="">
-                <input class="header_input" type="text" >
-                <!-- <h5>What are you looking for?</h5> -->
-                <a href="">
-                    <img class="search_logo" src="image/charm_search (1).svg" alt="">
-                     </a>
+            <form class="header_form" name="form" action="search" submit="" method="dialog">
+                <input class="header_input"  type="search" name="search" placeholder="What are you looking for?">
+                <input class="search_icon " type="image" name="search" src="image/charm_search (1).svg">
             </form>
            
         </div>  
@@ -53,8 +50,13 @@
                     <input class="input1" type="text" id="NAME" name="FIRSNAME" placeholder="name">
                     <input class="input2" type="email" id="EMAIL" name="EMAILADRES" placeholder="email">
                     </div>
-                    <h4 class="form_h4">Is your question about an existing order?</h4>
-                    <input class="input3" type="text">
+                    <div>
+                        <label class="input3_label " for="Choice">Is your question about an existing order?</label>
+                       <select name="choice" id="Choice">
+                        <option >YES</option>
+                        <option >NO</option>
+                       </select>
+                    </div>
                     
                         <h4 class="form_h4">I have a delivery question about my order</h4>
                             <div class="input4_div">
@@ -82,7 +84,7 @@
                                 </div>
 
 
-                                <input class="input10" type="submit">
+                                <input class="input10" type="submit" value="send">
                             
                     
                 
