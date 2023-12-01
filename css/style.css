@@ -123,6 +123,7 @@ margin-bottom: 80px;
 }
 .input_div{
     display: flex;
+    
 }
 .input1{
     display: flex;
@@ -132,7 +133,7 @@ margin-bottom: 80px;
     border-radius: 8px;
     border: 1px solid #B052B5;
    margin-right: 24px;
-   background-color: transparent;
+  
    
 }
 .input2{ display: flex;
